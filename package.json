@@ -1,5 +1,5 @@
 {
-  "name": "my-better-t-app",
+  "name": "ranked-lists",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -13,23 +13,23 @@
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
-    "db:push": "turbo -F @my-better-t-app/db db:push",
-    "db:studio": "turbo -F @my-better-t-app/db db:studio",
-    "db:generate": "turbo -F @my-better-t-app/db db:generate",
-    "db:migrate": "turbo -F @my-better-t-app/db db:migrate",
-    "deploy": "turbo -F @my-better-t-app/infra deploy",
-    "destroy": "turbo -F @my-better-t-app/infra destroy",
+    "db:push": "turbo -F @ranked-lists/db db:push",
+    "db:studio": "turbo -F @ranked-lists/db db:studio",
+    "db:generate": "turbo -F @ranked-lists/db db:generate",
+    "db:migrate": "turbo -F @ranked-lists/db db:migrate",
+    "deploy": "turbo -F @ranked-lists/infra deploy",
+    "destroy": "turbo -F @ranked-lists/infra destroy",
     "check": "biome check --write ."
   },
   "dependencies": {
-    "@my-better-t-app/env": "workspace:*",
+    "@ranked-lists/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.0",
     "@cloudflare/workers-types": "catalog:",
-    "@my-better-t-app/config": "workspace:*",
+    "@ranked-lists/config": "workspace:*",
     "@types/node": "catalog:",
     "turbo": "^2.6.3",
     "typescript": "catalog:"

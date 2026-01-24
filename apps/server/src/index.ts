@@ -1,8 +1,8 @@
 import { trpcServer } from "@hono/trpc-server";
-import { createContext } from "@my-better-t-app/api/context";
-import { appRouter } from "@my-better-t-app/api/routers/index";
-import { auth } from "@my-better-t-app/auth";
-import { env } from "@my-better-t-app/env/server";
+import { createContext } from "@ranked-lists/api/context";
+import { appRouter } from "@ranked-lists/api/routers/index";
+import { auth } from "@ranked-lists/auth";
+import { env } from "@ranked-lists/env/server";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { logger } from "hono/logger";

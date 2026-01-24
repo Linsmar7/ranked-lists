@@ -1,6 +1,6 @@
-import { db } from "@my-better-t-app/db";
-import * as schema from "@my-better-t-app/db/schema/auth";
-import { env } from "@my-better-t-app/env/server";
+import { db } from "@ranked-lists/db";
+import * as schema from "@ranked-lists/db/schema/auth";
+import { env } from "@ranked-lists/env/server";
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 

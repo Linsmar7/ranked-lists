@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@hono/trpc-server": "^0.4.0",
-    "@my-better-t-app/api": "workspace:*",
-    "@my-better-t-app/auth": "workspace:*",
-    "@my-better-t-app/db": "workspace:*",
-    "@my-better-t-app/env": "workspace:*",
+    "@ranked-lists/api": "workspace:*",
+    "@ranked-lists/auth": "workspace:*",
+    "@ranked-lists/db": "workspace:*",
+    "@ranked-lists/env": "workspace:*",
     "@trpc/server": "catalog:",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "catalog:",
-    "@my-better-t-app/config": "workspace:*",
+    "@ranked-lists/config": "workspace:*",
     "@types/node": "catalog:",
     "alchemy": "catalog:",
     "tsdown": "^0.16.5",

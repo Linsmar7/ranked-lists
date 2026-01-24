@@ -7,7 +7,7 @@ config({ path: "./.env" });
 config({ path: "../../apps/web/.env" });
 config({ path: "../../apps/server/.env" });
 
-const app = await alchemy("my-better-t-app");
+const app = await alchemy("ranked-lists");
 
 export const web = await Vite("web", {
   cwd: "../../apps/web",

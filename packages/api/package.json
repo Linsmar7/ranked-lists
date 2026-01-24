@@ -1,5 +1,5 @@
 {
-  "name": "@my-better-t-app/api",
+  "name": "@ranked-lists/api",
   "type": "module",
   "exports": {
     ".": {
@@ -11,16 +11,17 @@
   },
   "scripts": {},
   "dependencies": {
-    "@my-better-t-app/auth": "workspace:*",
-    "@my-better-t-app/db": "workspace:*",
-    "@my-better-t-app/env": "workspace:*",
+    "@ranked-lists/auth": "workspace:*",
+    "@ranked-lists/db": "workspace:*",
+    "@ranked-lists/env": "workspace:*",
     "@trpc/client": "catalog:",
     "@trpc/server": "catalog:",
     "dotenv": "catalog:",
+    "drizzle-orm": "^0.45.1",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@my-better-t-app/config": "workspace:*",
+    "@ranked-lists/config": "workspace:*",
     "hono": "catalog:",
     "typescript": "catalog:"
   }
